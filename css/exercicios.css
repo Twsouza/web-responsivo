@@ -1,14 +1,18 @@
+/* Se não tiver nenhuma das
+condições abaixo, será 100% */
 .secao {
     width: 100%;
     float: none;
 }
-
+/* Se a tela tiver mais que 600 e menos que 1000px,
+vai ter width 50% */
 @media (min-width: 600px) {
     .secao {
         width: 50%;
         float: left;
     }
 }
+/* Se a tela tiver mais de 1000px, o width vai ser 33% */
 @media (min-width: 1000px) {
     .secao {
         width: 33.333%;
