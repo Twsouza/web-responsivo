@@ -18,20 +18,20 @@
 .mini {
     float: left;
     width: 50%;
-}
+} /* Dividir o espaço para caber duas noticias no mini */
 
 .container{
-    margin: 0 auto;
-    max-width: 1200px;
+    margin: 0 auto; /* deixar o container no meio */
+    max-width: 1200px; /* largura maxima */
 }
 .logo,
 .secao {
-    padding: 0 1%;
+    padding: 0 1%; /* altura 0 lados 1% */
 }
 
 img {
     max-width: 100%;
-}
+} /* usado para não estourar a imagem, não vazar além dos containers */
 
 .logo,
 .busca,
@@ -40,19 +40,23 @@ img {
     display: inline-block;
     vertical-align: middle;
 }
+/*
+permite que o design fique mais flexivel,
+dimensionando escorregue para baixo
+*/
 .menu-principal li {
     float: left;
-}
+} /* alinhar os itens a esquerda */
 
 header {
     padding: 0.5em 0;
-}
+} /* adiciona discancia até a borda */
 .destaques {
     margin-top: 1em;
-}
+} /* adiciona distancia depois da borda */
 .barra-nav {
     margin: 0.4em 0;
-}
+} /* adiciona distancia depois da borda */
 
 @media (min-width: 600px) {
     html {
